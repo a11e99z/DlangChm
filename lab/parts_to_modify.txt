@@ -1,0 +1,39 @@
+dmd.html: 
+=======================================
+add to transformed subj/<body> to show contents:
+
+<div class="page-contents quickindex">    
+	<div class="page-contents-header"><b>Contents</b></div>
+	<ol>
+		<li><a href='dmd-windows.html'>dmd (Windows)</a></li>
+		<li><a href='dmd-linux.html'>dmd (Linux)</a></li>
+		<li><a href='dmd-osx.html'>dmd (OSX)</a></li>
+		<li><a href='dmd-freebsd.html'>dmd (FreeBSD)</a></li>
+		<li><a href='rdmd.html'>rdmd</a></li>
+		<li><a href='install.html'>install.sh</a></li>
+		<li><a href='htod.html'>htod</a></li>
+	</ol>
+	<!--p class="Command-line Reference"><a href="http://wiki.dlang.org/Development_tools">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Command-line Reference</a></p-->
+</div>
+
+
+foundation/: 
+=======================================
+about.html: 	remove Donate links
+donate.html:    dont needed, delete it
+
+
+Contents-Template.hhc
+=======================================
+copy it to Contents.hhc 
+and after successful running 
+DlangChm.exe <full path to lab folder>
+copy to Contents.hhc next book to appropriate position:
+	Phobos.hhc
+		Internal.hhc (before last Phobos </UL>)
+	Changelog.hhc
+	Articles.hhc
+
+why so: 
+I tried to include such files from Contents.hhc but HTML Workshop hangs for some time (I see no end)
