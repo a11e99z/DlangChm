@@ -36,5 +36,7 @@ You can compile it in Linux but you still need to run HTML Help Workshop in some
 
 For "**lab**" folder see lab/readme.md
 
-"**releases**" folder contains precompiled CHM files (in future will be more versions) and screenshots:
-![D 2.088.0](/releases/D-ch-01.jpg)
+"**releases**" folder contains precompiled CHM files (in future will be more versions) and screenshots:  
+![D 2.088.0 tree](../../releases/D-chm-01.jpg)  
+![D 2.088.0 full-text search](../../releases/D-chm-02.jpg)  
+![D 2.088.0 index](../../releases/D-chm-03.jpg)
