@@ -39,5 +39,5 @@ For "**lab**" folder see lab/readme.md
 "**releases**" folder contains precompiled CHM files (in future will be more versions) and screenshots:  
 ![D 2.088.0 tree](../../releases/D-chm-01.jpg)  
 ![D 2.088.0 full-text search](../../releases/D-chm-02.jpg)  
-![D 2.088.0 index](../../releases/D-chm-03.jpg)
+![D 2.088.0 index](../../releases/D-chm-03.jpg)  
 **TODO** sorry, idk how to ref images right. u can see it in release folder
