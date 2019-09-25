@@ -19,33 +19,35 @@ listanchor.js is modified cuz native Windows CHM-viewer using IE6 that doesn't s
 **part_to_modify.txt** contains list of manual works that should be done before compiling project in HTML Workshop.
 
 next files I copy myself from D/html/d/ to lab for compiling CHM:
-		articles	<folder>
-		changelog	<folder>
-		css			<folder>
-		foundation	<folder>
-		images		<folder>
-		phobos		<folder>
-		spec		<folder>
-		acknowledgements.html
-		areas-of-d-usage.html
-		ascii-table.html
-		comparison.html
-		concepts.html
-		deprecate.html
-		dmd.html
-		dmd-freebsd.html
-		dmd-linux.html
-		dmd-osx.html
-		dmd-windows.html
-		dstyle.html
-		glossary.html
-		gpg_keys.html
-		howto-promote.html
-		htod.html
-		install.html
-		overview.html
-		rdmd.html
-		security.html
-		tuple.html
-		wc.html
-		windbg.html
+~~~~
+	articles	<folder>
+	changelog	<folder>
+	css			<folder>
+	foundation	<folder>
+	images		<folder>
+	phobos		<folder>
+	spec		<folder>
+	acknowledgements.html
+	areas-of-d-usage.html
+	ascii-table.html
+	comparison.html
+	concepts.html
+	deprecate.html
+	dmd.html
+	dmd-freebsd.html
+	dmd-linux.html
+	dmd-osx.html
+	dmd-windows.html
+	dstyle.html
+	glossary.html
+	gpg_keys.html
+	howto-promote.html
+	htod.html
+	install.html
+	overview.html
+	rdmd.html
+	security.html
+	tuple.html
+	wc.html
+	windbg.html
+~~~~
