@@ -21,7 +21,9 @@ listanchor.js is modified cuz native Windows CHM-viewer using IE6 that doesn't s
 next files I copy myself from D/html/d/ to lab for compiling CHM:
 		articles	<folder>
 		changelog	<folder>
+		css			<folder>
 		foundation	<folder>
+		images		<folder>
 		phobos		<folder>
 		spec		<folder>
 		acknowledgements.html
