@@ -31,10 +31,10 @@ one compressed 4MB help with Index and Full-Text searching instead 85MB 800 file
 
 ## Description
 
-"DlangChm" folder contains C#/NetCore3 project.   
+"**DlangChm**" folder contains C#/NetCore3 project.   
 You can compile it in Linux but you still need to run HTML Help Workshop in some virtual machine or Wine or separate Windows machine.
 
-For "lab" folder see lab/readme.md
+For "**lab**" folder see lab/readme.md
 
-"releases" folder contains precompiled CHM files (in future will be more versions) and screenshots:
+"**releases**" folder contains precompiled CHM files (in future will be more versions) and screenshots:
 ![D 2.088.0](/releases/D-ch-01.jpg)
