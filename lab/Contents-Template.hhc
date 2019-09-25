@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+
+<!-- D language -->
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="D language">
+		<param name="Local" value="overview.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Features Overview">
+			<param name="Local" value="comparison.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Areas of D usage">
+			<param name="Local" value="areas-of-d-usage.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="D Style">
+			<param name="Local" value="dstyle.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Example: Word Count">
+			<param name="Local" value="wc.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Template Constraints">
+			<param name="Local" value="concepts.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Deprecated Features">
+			<param name="Local" value="deprecate.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Glossary">
+			<param name="Local" value="glossary.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Acknowledgements">
+			<param name="Local" value="acknowledgements.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DMD Compiler">
+			<param name="Local" value="dmd.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DMD for Windows">
+				<param name="Local" value="dmd-windows.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DMD for Linux">
+				<param name="Local" value="dmd-linux.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DMD for macOS">
+				<param name="Local" value="dmd-osx.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DMD for FreeBSD">
+				<param name="Local" value="dmd-freebsd.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="rdmd">
+				<param name="Local" value="rdmd.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="install.sh">
+				<param name="Local" value="install.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="htod">
+				<param name="Local" value="htod.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="About Tuples">
+			<param name="Local" value="tuple.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WinDBG">
+			<param name="Local" value="windbg.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ASCII Table">
+			<param name="Local" value="ascii-table.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GPG Keys">
+			<param name="Local" value="gpg_keys.html">
+			</OBJECT>
+	</UL>
+
+<!-- Specification -->
+
+<!-- Phobos -->
+
+<!-- Articles -->
+
+<!-- D Foundation -->
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="D Foundation">
+		<param name="Local" value="foundation\index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="About">
+			<param name="Local" value="foundation\about.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="UPB Scholarship">
+			<param name="Local" value="foundation\upb-scholarship.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sponsors">
+			<param name="Local" value="foundation\sponsors.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="D Security Team">
+			<param name="Local" value="security.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Promoting D Projects">
+			<param name="Local" value="howto-promote.html">
+			</OBJECT>
+	</UL>
+
+<!-- Changelog -->
+
+</UL>
+</BODY></HTML>
