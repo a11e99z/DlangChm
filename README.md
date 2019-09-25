@@ -9,7 +9,7 @@ It allows include Index and Full-Text searching to result file.
 C#/.NetCore3 prj transforms D-htmls from DMD distro (DMD/htmls/d/) to acceptable form by HTMLWorkshop/CHM:
 - it removes top menu - dont needed for offline help.   
   I draw bar with D-logo and Dlang version with copyrights instead.
-- also removes right tree menu - dont needed cuz CHM has own one.
+- also removes left tree menu - dont needed cuz CHM has own one.
 - removes some files like Resources, Issues, Community, Donate etc.
 - replaces href-s to non existing files or WWW by simple inner text.
 - removes all scripts except listanchors & jQuery. imo anchor links is good/useful feature.
@@ -23,7 +23,7 @@ well, such work takes 15 minutes.
 
 Noticed:   
 - each Phobos files contains full tree of links to all of other Phobos files.   
-when EXE removes right and top trees new html-files takes 15MB instead 80MB.
+when EXE removes left and top trees new html-files takes 15MB instead 80MB.
 - some files have not been updated for a very long time.
 
 Result:   
@@ -40,3 +40,4 @@ For "**lab**" folder see lab/readme.md
 ![D 2.088.0 tree](../../releases/D-chm-01.jpg)  
 ![D 2.088.0 full-text search](../../releases/D-chm-02.jpg)  
 ![D 2.088.0 index](../../releases/D-chm-03.jpg)
+**TODO** sorry, idk how to ref images right. u can see it in release folder
