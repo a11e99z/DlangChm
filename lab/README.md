@@ -3,14 +3,18 @@
 Folder contains templates and modified files for right showing/compiling CHM.
 
 Main HTML Help Workshop file is **Dlang.hpp**.  
-it contains list of all used files - some of source files dont needed at all.  
+it contains list of all used files - some of source D-html files dont needed at all.  
 
-**Contents-Templates.hhc** contains template for D-CHM books/leftTree
+**Contents-Templates.hhc** contains template for D-CHM books/leftTree.  
+copy it to new Contents.hhc (that refs prj) and modify it as **part_to_modify.txt** says
 
-**empty.page** contains dumb-html that used for CHM-books when no appropriate html
+**empty.page** contains dumb-html that used for CHM-books when no appropriate html.  
+each CHM book/left-tree-group-item should refs to some useful html.
 
 **js** contains all scripts that needed for CHM (delete others)  
-listanchor.js is modified cuz native Windows CHM-viewer using IE6 that doesn't support modern features
+listanchor.js is modified cuz native Windows CHM-viewer using IE6 that doesn't support modern JS-features.
+
+**part_to_modify.txt** contains list of manual works that should be done before compiling project in HTML Workshop.
 
 **part_to_modify.txt** contains list of manual works that should be done before compiling project in HTML Workshop.
 
