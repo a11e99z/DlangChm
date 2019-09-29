@@ -16,13 +16,11 @@ listanchor.js is modified cuz native Windows CHM-viewer using IE6 that doesn't s
 
 **part_to_modify.txt** contains list of manual works that should be done before compiling project in HTML Workshop.
 
-**part_to_modify.txt** contains list of manual works that should be done before compiling project in HTML Workshop.
-
 next files I copy myself from D/html/d/ to lab for compiling CHM:
 ~~~~
 	articles	<folder>
 	changelog	<folder>
-	css			<folder>
+	css		<folder>
 	foundation	<folder>
 	images		<folder>
 	phobos		<folder>
