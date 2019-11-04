@@ -1,20 +1,21 @@
 [OPTIONS]
 Binary TOC=Yes
 Compatibility=1.1 or later
-Compiled file=Dlang.chm
+Compiled file=Dlang.2_089.chm
 Contents file=Contents.hhc
 Default topic=overview.html
 Display compile progress=Yes
 Full-text search=Yes
 Index file=Index.hhk
 Language=0x409 English (United States)
-Title=Dlang 2.088
+Title=Dlang 2.089
 
 
 [FILES]
 acknowledgements.html
 areas-of-d-usage.html
 ascii-table.html
+community.html
 comparison.html
 concepts.html
 deprecate.html
@@ -28,7 +29,9 @@ glossary.html
 gpg_keys.html
 howto-promote.html
 htod.html
+index.html
 install.html
+orgs-using-d.html
 overview.html
 rdmd.html
 security.html
@@ -180,12 +183,21 @@ changelog\2.086.1.html
 changelog\2.087.0.html
 changelog\2.087.1.html
 changelog\2.088.0.html
+changelog\2.088.1.html
+changelog\2.089.0.html
 changelog\index.html
 changelog\release-schedule.html
+css\codemirror.css
+css\ddox.css
+css\print.css
+css\style.css
 foundation\about.html
 foundation\index.html
 foundation\sponsors.html
 foundation\upb-scholarship.html
+js\jquery-1.7.2.min.js
+js\listanchors.js
+phobos\core.html
 phobos\core_atomic.html
 phobos\core_attribute.html
 phobos\core_bitop.html
@@ -193,23 +205,16 @@ phobos\core_checkedint.html
 phobos\core_cpuid.html
 phobos\core_demangle.html
 phobos\core_exception.html
+phobos\core_gc.html
 phobos\core_gc_config.html
 phobos\core_gc_gcinterface.html
 phobos\core_gc_registry.html
-phobos\core_internal_array_appending.html
-phobos\core_internal_array_capacity.html
-phobos\core_internal_array_casting.html
-phobos\core_internal_array_comparison.html
-phobos\core_internal_array_concatenation.html
-phobos\core_internal_array_construction.html
-phobos\core_internal_array_equality.html
-phobos\core_internal_array_utils.html
-phobos\core_internal_util_array.html
 phobos\core_lifetime.html
 phobos\core_math.html
 phobos\core_memory.html
 phobos\core_runtime.html
 phobos\core_simd.html
+phobos\core_stdc.html
 phobos\core_stdc_assert_.html
 phobos\core_stdc_complex.html
 phobos\core_stdc_config.html
@@ -232,15 +237,18 @@ phobos\core_stdc_tgmath.html
 phobos\core_stdc_time.html
 phobos\core_stdc_wchar_.html
 phobos\core_stdc_wctype.html
+phobos\core_stdcpp.html
 phobos\core_stdcpp_allocator.html
 phobos\core_stdcpp_array.html
 phobos\core_stdcpp_exception.html
 phobos\core_stdcpp_new_.html
 phobos\core_stdcpp_string.html
 phobos\core_stdcpp_string_view.html
+phobos\core_stdcpp_type.html
 phobos\core_stdcpp_type_traits.html
 phobos\core_stdcpp_typeinfo.html
 phobos\core_stdcpp_vector.html
+phobos\core_sync.html
 phobos\core_sync_barrier.html
 phobos\core_sync_condition.html
 phobos\core_sync_config.html
@@ -249,33 +257,47 @@ phobos\core_sync_exception.html
 phobos\core_sync_mutex.html
 phobos\core_sync_rwmutex.html
 phobos\core_sync_semaphore.html
+phobos\core_sys.html
+phobos\core_sys_darwin.html
+phobos\core_sys_darwin_crt.html
 phobos\core_sys_darwin_crt_externs.html
 phobos\core_sys_darwin_dlfcn.html
 phobos\core_sys_darwin_execinfo.html
+phobos\core_sys_darwin_mach.html
 phobos\core_sys_darwin_mach_dyld.html
 phobos\core_sys_darwin_mach_getsect.html
+phobos\core_sys_darwin_mach_kern.html
 phobos\core_sys_darwin_mach_kern_return.html
 phobos\core_sys_darwin_mach_loader.html
 phobos\core_sys_darwin_mach_port.html
 phobos\core_sys_darwin_mach_semaphore.html
+phobos\core_sys_darwin_mach_thread.html
 phobos\core_sys_darwin_mach_thread_act.html
+phobos\core_sys_darwin_netinet.html
 phobos\core_sys_darwin_netinet_in_.html
 phobos\core_sys_darwin_pthread.html
 phobos\core_thread.html
+phobos\core_thread_fiber.html
+phobos\core_thread_osthread.html
 phobos\core_time.html
 phobos\core_vararg.html
+phobos\core_volatile.html
+phobos\dmd.html
 phobos\dmd_access.html
 phobos\dmd_aggregate.html
 phobos\dmd_aliasthis.html
 phobos\dmd_apply.html
 phobos\dmd_argtypes.html
+phobos\dmd_argtypes_sysv.html
 phobos\dmd_argtypes_sysv_x64.html
 phobos\dmd_arrayop.html
 phobos\dmd_arraytypes.html
+phobos\dmd_ast.html
 phobos\dmd_ast_node.html
 phobos\dmd_astbase.html
 phobos\dmd_astcodegen.html
 phobos\dmd_attrib.html
+phobos\dmd_backend.html
 phobos\dmd_backend_cc.html
 phobos\dmd_backend_cdef.html
 phobos\dmd_backend_cgcv.html
@@ -381,6 +403,7 @@ phobos\dmd_parse.html
 phobos\dmd_parsetimevisitor.html
 phobos\dmd_permissivevisitor.html
 phobos\dmd_printast.html
+phobos\dmd_root.html
 phobos\dmd_root_aav.html
 phobos\dmd_root_array.html
 phobos\dmd_root_ctfloat.html
@@ -391,6 +414,7 @@ phobos\dmd_root_longdouble.html
 phobos\dmd_root_man.html
 phobos\dmd_root_outbuffer.html
 phobos\dmd_root_port.html
+phobos\dmd_root_region.html
 phobos\dmd_root_response.html
 phobos\dmd_root_rmem.html
 phobos\dmd_root_rootobject.html
@@ -407,6 +431,7 @@ phobos\dmd_semantic2.html
 phobos\dmd_semantic3.html
 phobos\dmd_sideeffect.html
 phobos\dmd_statement.html
+phobos\dmd_statement_rewrite.html
 phobos\dmd_statement_rewrite_walker.html
 phobos\dmd_statementsem.html
 phobos\dmd_staticassert.html
@@ -428,7 +453,10 @@ phobos\dmd_typinf.html
 phobos\dmd_utf.html
 phobos\dmd_utils.html
 phobos\dmd_visitor.html
+phobos\etc.html
+phobos\etc_c.html
 phobos\etc_c_curl.html
+phobos\etc_c_odbc.html
 phobos\etc_c_odbc_sql.html
 phobos\etc_c_odbc_sqlext.html
 phobos\etc_c_odbc_sqltypes.html
@@ -437,13 +465,15 @@ phobos\etc_c_sqlite3.html
 phobos\etc_c_zlib.html
 phobos\index.html
 phobos\object.html
-phobos\rt_aaA.html
-phobos\rt_aApply.html
-phobos\rt_aApplyR.html
+phobos\rt.html
+phobos\rt_aaa.html
+phobos\rt_aapply.html
+phobos\rt_aapplyr.html
 phobos\rt_adi.html
 phobos\rt_alloca.html
 phobos\rt_arrayassign.html
 phobos\rt_arraycat.html
+phobos\rt_backtrace.html
 phobos\rt_backtrace_dwarf.html
 phobos\rt_backtrace_elf.html
 phobos\rt_backtrace_macho.html
@@ -454,6 +484,7 @@ phobos\rt_cover.html
 phobos\rt_critical_.html
 phobos\rt_deh.html
 phobos\rt_deh_win32.html
+phobos\rt_deh_win64.html
 phobos\rt_deh_win64_posix.html
 phobos\rt_dmain2.html
 phobos\rt_dwarfeh.html
@@ -469,7 +500,9 @@ phobos\rt_profilegc.html
 phobos\rt_qsort.html
 phobos\rt_sections.html
 phobos\rt_sections_android.html
+phobos\rt_sections_elf.html
 phobos\rt_sections_elf_shared.html
+phobos\rt_sections_osx.html
 phobos\rt_sections_osx_x86.html
 phobos\rt_sections_osx_x86_64.html
 phobos\rt_sections_solaris.html
@@ -478,18 +511,20 @@ phobos\rt_sections_win64.html
 phobos\rt_tlsgc.html
 phobos\rt_trace.html
 phobos\rt_tracegc.html
-phobos\rt_typeinfo_ti_Acdouble.html
-phobos\rt_typeinfo_ti_Acfloat.html
-phobos\rt_typeinfo_ti_Acreal.html
-phobos\rt_typeinfo_ti_Adouble.html
-phobos\rt_typeinfo_ti_Afloat.html
-phobos\rt_typeinfo_ti_Ag.html
-phobos\rt_typeinfo_ti_Aint.html
-phobos\rt_typeinfo_ti_Along.html
-phobos\rt_typeinfo_ti_Areal.html
-phobos\rt_typeinfo_ti_Ashort.html
+phobos\rt_typeinfo.html
+phobos\rt_typeinfo_ti.html
+phobos\rt_typeinfo_ti_acdouble.html
+phobos\rt_typeinfo_ti_acfloat.html
+phobos\rt_typeinfo_ti_acreal.html
+phobos\rt_typeinfo_ti_adouble.html
+phobos\rt_typeinfo_ti_afloat.html
+phobos\rt_typeinfo_ti_ag.html
+phobos\rt_typeinfo_ti_aint.html
+phobos\rt_typeinfo_ti_along.html
+phobos\rt_typeinfo_ti_areal.html
+phobos\rt_typeinfo_ti_ashort.html
 phobos\rt_typeinfo_ti_byte.html
-phobos\rt_typeinfo_ti_C.html
+phobos\rt_typeinfo_ti_c.html
 phobos\rt_typeinfo_ti_cdouble.html
 phobos\rt_typeinfo_ti_cent.html
 phobos\rt_typeinfo_ti_cfloat.html
@@ -516,6 +551,8 @@ phobos\rt_typeinfo_ti_ushort.html
 phobos\rt_typeinfo_ti_void.html
 phobos\rt_typeinfo_ti_wchar.html
 phobos\rt_unwind.html
+phobos\rt_util.html
+phobos\rt_util_container.html
 phobos\rt_util_container_array.html
 phobos\rt_util_container_common.html
 phobos\rt_util_container_hashtab.html
@@ -564,27 +601,44 @@ phobos\std_digest_ripemd.html
 phobos\std_digest_sha.html
 phobos\std_encoding.html
 phobos\std_exception.html
+phobos\std_experimental.html
 phobos\std_experimental_allocator.html
+phobos\std_experimental_allocator_building.html
 phobos\std_experimental_allocator_building_blocks.html
+phobos\std_experimental_allocator_building_blocks_affix.html
 phobos\std_experimental_allocator_building_blocks_affix_allocator.html
+phobos\std_experimental_allocator_building_blocks_aligned.html
+phobos\std_experimental_allocator_building_blocks_aligned_block.html
 phobos\std_experimental_allocator_building_blocks_aligned_block_list.html
+phobos\std_experimental_allocator_building_blocks_allocator.html
 phobos\std_experimental_allocator_building_blocks_allocator_list.html
+phobos\std_experimental_allocator_building_blocks_ascending.html
+phobos\std_experimental_allocator_building_blocks_ascending_page.html
 phobos\std_experimental_allocator_building_blocks_ascending_page_allocator.html
+phobos\std_experimental_allocator_building_blocks_bitmapped.html
 phobos\std_experimental_allocator_building_blocks_bitmapped_block.html
 phobos\std_experimental_allocator_building_blocks_bucketizer.html
+phobos\std_experimental_allocator_building_blocks_fallback.html
 phobos\std_experimental_allocator_building_blocks_fallback_allocator.html
+phobos\std_experimental_allocator_building_blocks_free.html
 phobos\std_experimental_allocator_building_blocks_free_list.html
 phobos\std_experimental_allocator_building_blocks_free_tree.html
+phobos\std_experimental_allocator_building_blocks_kernighan.html
 phobos\std_experimental_allocator_building_blocks_kernighan_ritchie.html
+phobos\std_experimental_allocator_building_blocks_null.html
 phobos\std_experimental_allocator_building_blocks_null_allocator.html
 phobos\std_experimental_allocator_building_blocks_quantizer.html
 phobos\std_experimental_allocator_building_blocks_region.html
+phobos\std_experimental_allocator_building_blocks_scoped.html
 phobos\std_experimental_allocator_building_blocks_scoped_allocator.html
 phobos\std_experimental_allocator_building_blocks_segregator.html
+phobos\std_experimental_allocator_building_blocks_stats.html
 phobos\std_experimental_allocator_building_blocks_stats_collector.html
 phobos\std_experimental_allocator_common.html
+phobos\std_experimental_allocator_gc.html
 phobos\std_experimental_allocator_gc_allocator.html
 phobos\std_experimental_allocator_mallocator.html
+phobos\std_experimental_allocator_mmap.html
 phobos\std_experimental_allocator_mmap_allocator.html
 phobos\std_experimental_allocator_showcase.html
 phobos\std_experimental_allocator_typed.html
@@ -604,6 +658,7 @@ phobos\std_math.html
 phobos\std_mathspecial.html
 phobos\std_meta.html
 phobos\std_mmfile.html
+phobos\std_net.html
 phobos\std_net_curl.html
 phobos\std_net_isemail.html
 phobos\std_numeric.html
@@ -616,6 +671,7 @@ phobos\std_range.html
 phobos\std_range_interfaces.html
 phobos\std_range_primitives.html
 phobos\std_regex.html
+phobos\std_regex_internal.html
 phobos\std_regex_internal_backtracking.html
 phobos\std_regex_internal_generator.html
 phobos\std_regex_internal_ir.html
@@ -637,6 +693,7 @@ phobos\std_uri.html
 phobos\std_utf.html
 phobos\std_uuid.html
 phobos\std_variant.html
+phobos\std_windows.html
 phobos\std_windows_charset.html
 phobos\std_windows_registry.html
 phobos\std_windows_syserror.html
@@ -664,7 +721,7 @@ spec\grammar.html
 spec\hash-map.html
 spec\iasm.html
 spec\interface.html
-spec\interfaceToC.html
+spec\interfacetoc.html
 spec\intro.html
 spec\lex.html
 spec\memory-safe-d.html
@@ -684,9 +741,6 @@ spec\traits.html
 spec\type.html
 spec\unittest.html
 spec\version.html
-images\dlogo.png
-js\jquery-1.7.2.min.js
-js\listanchors.js
 
 [INFOTYPES]
 
