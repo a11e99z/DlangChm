@@ -41,3 +41,4 @@ For "**lab**" folder see lab/readme.md
 ![D 2.088.0 full-text search](../../releases/D-chm-02.jpg)  
 ![D 2.088.0 index](../../releases/D-chm-03.jpg)  
 **TODO** sorry, idk how to ref images right. u can see it in release folder
+
